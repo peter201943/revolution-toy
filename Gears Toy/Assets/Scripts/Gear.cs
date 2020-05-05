@@ -10,10 +10,14 @@ using UnityEngine;
 
 
 /// <summary>
-/// <p> A Physics Object which receives user drag-events </p>
-/// <p> Largely a collection of variables and getters/setters to communicate to components </p>
+/// <para> A Physics Object which receives user drag-events </para>
+/// <para> Largely a collection of variables and getters/setters to communicate to components </para>
 /// </summary>
 public class Gear : MonoBehaviour
 {
+
+
+
+
 
 }

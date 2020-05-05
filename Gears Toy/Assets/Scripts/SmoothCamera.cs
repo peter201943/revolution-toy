@@ -37,6 +37,9 @@ public class SmoothCamera : MonoBehaviour
     [Tooltip("What angle to look at the target with")]
     [SerializeField] private Quaternion _offsetAngle;
 
+    [Tooltip("The area the camera is allowed to move in")]
+    [SerializeField] private Collider _boundingBox;
+
 
 
 
@@ -49,7 +52,10 @@ public class SmoothCamera : MonoBehaviour
         // Mouse Case
         if (_followMouse)
         {
-            _target = new GameObject().transform;
+            GameObject mouseObject = new GameObject();
+            mouseObject.name = "Mouse";
+            mouseObject.transform.SetParent(GameObject.Find("Dynamic").transform);
+            _target = mouseObject.transform;
             _target.position = Input.mousePosition;
         }
     }
@@ -73,6 +79,13 @@ public class SmoothCamera : MonoBehaviour
         if (_followMouse)
         {
             _target.position = Input.mousePosition;
+            /* _target.position = this.gameObject
+                .GetComponent<Camera>().
+                ScreenToWorldPoint(Input.mousePosition); */
+            Debug.Log("World Point: "
+                + this.gameObject.GetComponent<Camera>().ScreenToWorldPoint(Input.mousePosition)
+                + "  Mouse Point: "
+                + Input.mousePosition);
         }
 
         // Update Position

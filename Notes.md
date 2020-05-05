@@ -113,12 +113,12 @@
          - [Wallpaper Flare](https://www.wallpaperflare.com/)
          - 2020 May 5
  - Gear Sounds
-     - `GearRun1.ogg` ****
+     - `GearRun1.ogg`
          - ["Running gear"](https://freesound.org/people/Vurca/sounds/315753/)
          - [Vuca](https://freesound.org/people/Vurca/)
          - [Free Sound](https://freesound.org/)
          - 2020 May 5
-     - `Gear1.ogg` **
+     - `Gear1.ogg`
          - ["Bicycle gear"](https://freesound.org/people/HaseaN/sounds/467422/)
          - [HaseaN](https://freesound.org/people/HaseaN/)
          - [Free Sound](https://freesound.org/)
@@ -160,7 +160,7 @@
          - [Free Sound](https://freesound.org/)
          - 2020 May 5
  - Crash Sounds
-     - `Bang1.ogg` *****
+     - `Bang1.ogg`
          - ["remix of 152846__timbre__mantrap-toaster"](https://freesound.org/people/Timbre/sounds/152847/)
          - ["Timbre"](https://freesound.org/people/Timbre/)
          - [Free Sound](https://freesound.org/)
@@ -217,10 +217,27 @@
          - [Free Sound](https://freesound.org/)
          - 2020 May 5
  - Help
-     - [Add Info Text Notes into the inspector](https://forum.unity.com/threads/add-info-text-notes-into-the-inspector.265330/)
-     - [Smooth Camera Follow in Unity - Tutorial](https://www.youtube.com/watch?v=MFQhpwc6cKE)
-     - [Average quaternions?](https://forum.unity.com/threads/average-quaternions.86898/)
-     - [Input.GetKeyDown](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html)
+     - Misc
+         - [Add Info Text Notes into the inspector](https://forum.unity.com/threads/add-info-text-notes-into-the-inspector.265330/)
+         - [NewLine in object summary](https://stackoverflow.com/questions/6060416/newline-in-object-summary)
+         - [GameObject.Find](https://docs.unity3d.com/ScriptReference/GameObject.Find.html)
+         - [Input.GetKeyDown](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html)
+         - [How to make a Skybox](https://docs.unity3d.com/Manual/HOWTO-UseSkybox.html)
+     - Camera
+         - [Smooth Camera Follow in Unity - Tutorial](https://www.youtube.com/watch?v=MFQhpwc6cKE)
+         - [Average quaternions?](https://forum.unity.com/threads/average-quaternions.86898/)
+     - Mouse
+         - [Finding relative mouse position](https://answers.unity.com/questions/606357/finding-relative-mouse-position-1.html)
+         - [Input.mousePosition](https://docs.unity3d.com/ScriptReference/Input-mousePosition.html)
+     - Spawning
+         - [**Instantiating Prefabs at run time**](https://docs.unity3d.com/Manual/InstantiatingPrefabs.html)
+         - [Making a new transform in code?](https://forum.unity.com/threads/making-a-new-transform-in-code.49277/)
+         - [Give a instantiated prefab a parent](https://answers.unity.com/questions/1248854/give-a-instantiated-prefab-a-parent.html)
+     - Bounds
+         - [Bounds](https://docs.unity3d.com/ScriptReference/Bounds.html)
+         - [Mesh.bounds](https://docs.unity3d.com/ScriptReference/Mesh-bounds.html)
+         - [[ECS Tutorial] Making an RTS with Unity's ECS - Collisions (Axis-Aligned Bounding Box)](https://www.youtube.com/watch?v=gPKJyfREPDk)
+         - [Unity - Keeping The Player Within Screen Boundaries](https://www.youtube.com/watch?v=ailbszpt_AI)
  - Not Reusable
      - `CoolGears.jpg`
      - ["...tick tack tick tack..."](https://www.deviantart.com/yancis/art/tick-tack-tick-tack-205771239?itemids=197&purchase=print)
@@ -249,6 +266,7 @@
  - Grinding gears emit sound
  - Gears can Grind
  - Gears can seize agains objects
+ - Mouse Cursor should appear as highlight on gear
 
 
 

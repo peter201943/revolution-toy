@@ -17,7 +17,7 @@ public class SimpleMover : MonoBehaviour
 
 
     [Tooltip("How quickly this moves")]
-    [SerializeField] private float _speed = 0.5f;
+    [SerializeField] private float _speed = 1f;
 
 
 

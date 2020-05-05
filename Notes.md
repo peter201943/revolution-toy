@@ -238,6 +238,9 @@
          - [Mesh.bounds](https://docs.unity3d.com/ScriptReference/Mesh-bounds.html)
          - [[ECS Tutorial] Making an RTS with Unity's ECS - Collisions (Axis-Aligned Bounding Box)](https://www.youtube.com/watch?v=gPKJyfREPDk)
          - [Unity - Keeping The Player Within Screen Boundaries](https://www.youtube.com/watch?v=ailbszpt_AI)
+     - Dynamic Audio
+         - [Dynamic music in Unity - Examples?](https://forum.unity.com/threads/dynamic-music-in-unity-examples.297631/)
+         - [Dynamic music in games](https://www.reddit.com/r/gamedev/comments/1qdg9m/dynamic_music_in_games/)
  - Not Reusable
      - `CoolGears.jpg`
      - ["...tick tack tick tack..."](https://www.deviantart.com/yancis/art/tick-tack-tick-tack-205771239?itemids=197&purchase=print)
@@ -268,6 +271,60 @@
  - Gears can seize agains objects
  - Mouse Cursor should appear as highlight on gear
 
+
+
+
+## Dynamic Audio
+
+
+### Speakers 
+ - points in a game space we choose to emit audio from
+ - we can choose in order, or randomly, or sets randomly which ones we want to emit from
+ - Example:
+     - 5 speakers synchronized and emitting the ambient drone
+     - 1 speaker is circling the player at ~100m, making banging sound
+     - 2 speakers in THIS_SPOT are asynchronouly playing Buzz and Jam
+
+
+### Long Tracks 
+ - music we can play
+ - These are Looped, and are always being played
+ - should not be especially complex tracks, but instead a canvas for other sounds
+ - Example:
+     - The long background ambient track
+
+
+### Short Tracks
+ - noises we can put in the background
+ - These are occasional, and are chosen randomly
+ - these should have particular flavor, be quieter and not immediate, but instead noticed
+ - Example:
+     - Grandfather chimes - these are sudden and different - play them quietly to make up a background stroke
+
+
+### Trigger Tracks
+ - these are activated elsewhere by something
+ - sortof special events
+ - Example:
+     - cavebat attack: multiple clawing noises emitted from wall speakers
+
+
+### Sonnets
+ - interplay of multiple related tracks
+ - Example: Ticking
+     - have multiple distinct ticking sounds and splice them together
+     - timed so as to go off properly and sound good
+
+
+### Logic
+ - How do we decide when to play which tracks?
+ - Examples:
+     - Random Value (Int prefereable)
+         - Tell when to play certain tracks, or how many times, or a particular order
+     - Volume Values
+         - Tell how loudly to play certain tracks
+     - Speaker Arrays
+         - Have sonnetts choose which arrays of speakers to play from
 
 
 

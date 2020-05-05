@@ -18,6 +18,9 @@ public class SmoothCamera : MonoBehaviour
     [Space]
     [Header("Camera Movement Properties")]
     [Space]
+
+    [Tooltip("Check to follow the mouse, and not the object")]
+    [SerializeField] private bool _followMouse = false;
     
     [Tooltip("What this follows")]
     [SerializeField] private Transform _target;
@@ -38,8 +41,25 @@ public class SmoothCamera : MonoBehaviour
 
 
     /// <summary>
-    /// Moves the camera to the target after every frame
-    /// Combines target, offset, and lerps at the given speed
+    /// <para> If the mouse is selected, a new game object is created </para>
+    /// <para> This object represents the mouse in the game space </para>
+    /// </summary>
+    private void Start()
+    {
+        // Mouse Case
+        if (_followMouse)
+        {
+            _target = new GameObject().transform;
+            _target.position = Input.mousePosition;
+        }
+    }
+
+
+
+
+    /// <summary>
+    /// <para> Moves the camera to the target after every frame </para>
+    /// <para> Combines target, offset, and lerps at the given speed </para>
     /// </summary>
     private void FixedUpdate()
     {
@@ -47,6 +67,12 @@ public class SmoothCamera : MonoBehaviour
         if (!_target)
         {
             return;
+        }
+
+        // Mouse Case
+        if (_followMouse)
+        {
+            _target.position = Input.mousePosition;
         }
 
         // Update Position

@@ -217,6 +217,10 @@
          - [Free Sound](https://freesound.org/)
          - 2020 May 5
  - Help
+     - [Add Info Text Notes into the inspector](https://forum.unity.com/threads/add-info-text-notes-into-the-inspector.265330/)
+     - [Smooth Camera Follow in Unity - Tutorial](https://www.youtube.com/watch?v=MFQhpwc6cKE)
+     - [Average quaternions?](https://forum.unity.com/threads/average-quaternions.86898/)
+     - [Input.GetKeyDown](https://docs.unity3d.com/ScriptReference/Input.GetKeyDown.html)
  - Not Reusable
      - `CoolGears.jpg`
      - ["...tick tack tick tack..."](https://www.deviantart.com/yancis/art/tick-tack-tick-tack-205771239?itemids=197&purchase=print)

@@ -185,6 +185,11 @@
          - [Koops](https://freesound.org/people/Koops/)
          - [Free Sound](https://freesound.org/)
          - 2020 May 5
+     - `Chain.ogg`
+         - ["metal chain"](https://freesound.org/people/Mediapaja2009/sounds/162156/)
+         - [Mediapaja2009](https://freesound.org/people/Mediapaja2009/)
+         - [Free Sound](https://freesound.org/)
+         - 2020 May 5
  - Ambient Sounds
      - `AmbientLong1.ogg`
          - ["foundation » Four 444"](https://freesound.org/people/Raille/sounds/353989/)
@@ -216,6 +221,37 @@
          - [mitchelk](https://freesound.org/people/mitchelk/)
          - [Free Sound](https://freesound.org/)
          - 2020 May 5
+ - Synth Sounds
+     - `SynthPlane.ogg`
+         - ["Ambient » DN KP - Jetplane"](https://freesound.org/people/DN_KP/sounds/117905/)
+         - [DN_KP](https://freesound.org/people/DN_KP/)
+         - [Free Sound](https://freesound.org/)
+         - 2020 May 6
+     - `SynthSweep.ogg`
+         - ["Ambient » Descending Grids.wav"](https://freesound.org/people/Stratocube/sounds/456292/)
+         - [Stratocube](https://freesound.org/people/Stratocube/)
+         - [Free Sound](https://freesound.org/)
+         - 2020 May 6
+     - `SynthWoo.ogg`
+         - ["synth » dark an djuicy.wav"](https://freesound.org/people/DreStortion/sounds/493689/)
+         - [DreStortion](https://freesound.org/people/DreStortion/sounds/493689/)
+         - [Free Sound](https://freesound.org/)
+         - 2020 May 6
+     - `SynthBeats.ogg`
+         - ["Ambient » Dark Hopeful Ambience"](https://freesound.org/people/PatrickLieberkind/sounds/396471/)
+         - [PatrickLieberkind](https://freesound.org/people/PatrickLieberkind/)
+         - [Free Sound](https://freesound.org/)
+         - 2020 May 6
+     - `SynthSiren.ogg`
+         - ["siren + horn » siren WTC"](https://freesound.org/people/reznik_Krkovicka/sounds/504596/)
+         - [reznik_Krkovicka](https://freesound.org/people/reznik_Krkovicka/)
+         - [Free Sound](https://freesound.org/)
+         - 2020 May 6
+     - `DistortSiren.ogg`
+         - ["dub sirens & harsh synth » dub siren_6 1.mp3"](https://freesound.org/people/hello_flowers/sounds/55199/)
+         - [hello_flowers](https://freesound.org/people/hello_flowers/)
+         - [Free Sound](https://freesound.org/)
+         - 2020 May 6
  - Help
      - Misc
          - [Add Info Text Notes into the inspector](https://forum.unity.com/threads/add-info-text-notes-into-the-inspector.265330/)
